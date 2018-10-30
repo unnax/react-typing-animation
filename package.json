@@ -1,9 +1,10 @@
 {
-  "name": "react-typing-animation",
-  "version": "1.3.4",
+  "name": "@unnax_dev/react-typing-animation",
+  "version": "0.0.2",
   "author": "Adam King https://github.com/adamjking3",
+  "description": "A fully-featured typing animation in React that supports any valid JSX.",
   "homepage": "https://adamjking3.github.io/react-typing-animation-example/",
-  "repository": "github:adamjking3/react-typing-animation",
+  "repository": "https://github.com/unnax/react-typing-animation.git",
   "license": "MIT",
   "keywords": [
     "react",

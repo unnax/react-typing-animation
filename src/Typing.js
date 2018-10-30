@@ -26,7 +26,7 @@ class Typing extends Component {
       JSON.stringify(children, getCircularReplacer()) !==
         JSON.stringify(this.props.children, getCircularReplacer())
     ) {
-      this.resetState();
+      this.resetState(children);
     }
   }
 
@@ -47,10 +47,10 @@ class Typing extends Component {
     }
   };
 
-  resetState = async () =>
+  resetState = async (children) =>
     this.updateState({
       text: [],
-      toType: extractText(this.props.children),
+      toType: extractText(children ? children : this.props.children),
       cursor: {
         lineNum: 0,
         charPos: 0,

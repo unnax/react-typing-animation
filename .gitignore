@@ -4,3 +4,5 @@ dist
 example/build
 
 **/.DS_Store
+
+.npmrc
